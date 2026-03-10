@@ -1,4 +1,4 @@
-const botaoExcluir = () => {
+const BotaoExcluir = () => {
     const botao = document.createElement("button");
     botao.classList.add("delete-button");
 
@@ -23,4 +23,4 @@ const excluirFilme = (evento) => {
     }
 }
 
-export default botaoExcluir;
+export default BotaoExcluir;

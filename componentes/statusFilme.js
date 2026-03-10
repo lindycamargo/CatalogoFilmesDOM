@@ -1,4 +1,4 @@
-const botaoStatus = () => {
+const BotaoStatus = () => {
     const botao = document.createElement("button");
     botao.classList.add("status-button");
     botao.innerText = "Status"; 
@@ -25,4 +25,4 @@ const alternarStatus = (evento) => {
     }
 };
 
-export default botaoStatus;
+export default BotaoStatus;

@@ -1,5 +1,5 @@
-import botaoStatus from "componentes/statusFilme.js";
-import botaoExcluir from "componentes/excluirFilme.js";
+import BotaoStatus from "./componentes/statusFilme.js";
+import BotaoExcluir from "./componentes/excluirFilme.js";
 
 const adicionarFilme = (evento) => {
     evento.preventDefault();
@@ -34,8 +34,8 @@ const adicionarFilme = (evento) => {
     filme.appendChild(genero);
     filme.appendChild(status);
 
-    filme.appendChild(botaoStatus());
-    filme.appendChild(botaoExcluir());
+    filme.appendChild(BotaoStatus());
+    filme.appendChild(BotaoExcluir());
 
     lista.appendChild(filme);
 
