@@ -1,5 +1,5 @@
-import botaoStatus from "./Componentes/statusFilme.js";
-import botaoExcluir from "./Componentes/excluirFilme.js";
+import botaoStatus from "Componentes/statusFilme.js";
+import botaoExcluir from "Componentes/excluirFilme.js";
 
 const adicionarFilme = (evento) => {
     evento.preventDefault();
