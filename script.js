@@ -1,8 +1,6 @@
 import botaoStatus from "./Componentes/statusFilme.js";
 import botaoExcluir from "./Componentes/excluirFilme.js";
 
-const botaoAdicionar = document.querySelector("#btnAdicionar");
-
 const adicionarFilme = (evento) => {
     evento.preventDefault();
 
@@ -45,5 +43,6 @@ const adicionarFilme = (evento) => {
     inputGenero.value = "";
 }
 
+const botaoAdicionar = document.querySelector("#btnAdicionar");
 botaoAdicionar.addEventListener("click", adicionarFilme);
 
