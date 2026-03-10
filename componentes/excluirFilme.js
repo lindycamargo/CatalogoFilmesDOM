@@ -4,7 +4,7 @@ const botaoExcluir = () => {
 
     const imagemExcluir = document.createElement("img");
 
-    imagemExcluir.src = "img/excluir - Editado.png"; 
+    imagemExcluir.src = "img/excluir-Editado.png"; 
     imagemExcluir.width = 15; 
 
     botao.appendChild(imagemExcluir);
